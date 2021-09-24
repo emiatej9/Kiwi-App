@@ -33,7 +33,7 @@ const std::wstring convert(const std::u16string str,
     result += '/';
     result += toString(iter->tag);
 
-    if (iter != end) {
+    if (iter != end - 1) {
       result += u" + ";
     }
   }
