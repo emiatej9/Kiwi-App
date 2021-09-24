@@ -5,7 +5,7 @@
 ## 프로젝트 빌드
 ```
 $ mkdir build && cd build
-$ cmake ..
+$ cmake -DCMAKE_BUILD_TYPE=DEBUG ..
 $ make
 $ cd ..
 $ ./kiwi-analyzer
