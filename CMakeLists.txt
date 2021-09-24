@@ -4,7 +4,7 @@ project(Kiwi-App LANGUAGES CXX VERSION 1.0.0)
 
 set(CMAKE_CXX_STANDARD 11)
 set(CMAKE_CXX_STANDARD_REQUIRED True)
-SET(CMAKE_CXX_FLAGS_DEBUG "-O0")
+SET(CMAKE_CXX_FLAGS_DEBUG "-g -O0 -Wall -Wextra")
 
 add_executable(kiwi-analyzer ${PROJECT_SOURCE_DIR}/src/main.cc)
 
